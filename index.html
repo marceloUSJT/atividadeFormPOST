@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <div id="container">
+        <form action="dados.html" method="POST">
+            <fieldset>
+                <legend>Cadastro</legend>
+                <div class="formItem">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Insira seu nome">
+                </div>
+                <div class="formItem">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Insira seu email">
+                </div>
+                <div class="formItem">
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" name="telefone" id="telefone" placeholder="(XX) XXXX-XXXX">
+                </div>
+                <div class="formItem">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="Insira sua senha">
+                </div>
+                <div class="formItem">
+                    <label for="idade">Idade</label>
+                    <select name="idade" id="idade">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                    </select>
+                </div>
+                <div class="formItem">
+                    <label for="tipoConta">Tipo de conta:</label>
+                    <select name="conta" id="tipoConta">
+                        <option value="Conta corrente">Conta corrente</option>
+                        <option value="Conta poupança">Conta Poupança</option>
+                    </select>
+                </div>
+                <div class="formItem">
+                    <label>Sexo:</label>
+                    <input type="radio" name="genero" value="masculino">Masculino
+                    <input type="radio" name="genero" value="feminino">Feminino
+                </div>
+                <div class="formItem">
+                    <input type="submit" value="Enviar" id="btnEnviar">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
